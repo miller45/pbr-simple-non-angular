@@ -9,7 +9,6 @@ exports.config = {
     capabilities: {
         'browserName': 'chrome',
         'chromeOptions': {
-            'binary': 'D:\\sodechromium\\chrome-win32\\chromium.exe',
             'args': ['--headless',
                 '--disable-gpu',
                 '--no-sandbox']

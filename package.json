@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "a sample for using protractor beautiful reporter with non angular pages",
   "scripts": {
-    "prepare-e2e": "webdriver-manager update",
+    "prepare":"webdriver-manager update",
     "e2e": "protractor"
   },
+  "license": "MIT",
   "devDependencies": {
     "jasmine-core": "~2.6.2",
     "jasmine-spec-reporter": "~4.1.0",
