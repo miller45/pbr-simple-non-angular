@@ -1,0 +1,15 @@
+{
+  "name": "pbr-simple-non-angular",
+  "version": "1.0.0",
+  "description": "a sample for using protractor beautiful reporter with non angular pages",
+  "scripts": {
+    "prepare-e2e": "webdriver-manager update",
+    "e2e": "protractor"
+  },
+  "devDependencies": {
+    "jasmine-core": "~2.6.2",
+    "jasmine-spec-reporter": "~4.1.0",
+    "protractor": "~5.1.2",
+    "protractor-beautiful-reporter": "^1.2.5"
+  }
+}
