@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "a sample for using protractor beautiful reporter with non angular pages",
   "scripts": {
-    "prepare":"webdriver-manager update",
-    "e2e": "protractor"
+    "prepare": "webdriver-manager update",
+    "e2e": "protractor protractor.conf"
   },
   "license": "MIT",
   "devDependencies": {
-    "jasmine-core": "~2.6.2",
-    "jasmine-spec-reporter": "~4.1.0",
-    "protractor": "~5.1.2",
+    "jasmine-core": "^3.3.0",
+    "jasmine-spec-reporter": "^4.1.0",
+    "protractor": "^5.4.1",
     "protractor-beautiful-reporter": "^1.2.5"
   }
 }
